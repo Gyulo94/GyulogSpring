@@ -14,25 +14,25 @@ export const Header = () => {
         </div>
         <div>
           <div className={styles.MenuList}>
-            <Link to="/" className={styles.Menu}>
-              <p>Main</p>
+            <Link to="/" className={styles.Home}>
+              <p>Home</p>
             </Link>
-            <Link to="/about" className={styles.Menu}>
+            <Link to="/about" className={styles.About}>
               <p>About</p>
             </Link>
-            <Link to="/blog" className={styles.Menu}>
+            <Link to="/blog" className={styles.Blog}>
               <p>Blog</p>
             </Link>
-            <Link to="/portfolio" className={styles.Menu}>
+            <Link to="/portfolio" className={styles.Portfolio}>
               <p>Portfolio</p>
             </Link>
-            <Link to="/contact" className={styles.Menu}>
+            <Link to="/contact" className={styles.Contact}>
               <p>Contact</p>
             </Link>
           </div>
         </div>
         <div>
-          <Link to="/login" className={styles.Menu}>
+          <Link to="/signin" className={styles.SignIn}>
             <p>Sign In</p>
           </Link>
         </div>

@@ -22,7 +22,11 @@
   justify-content: space-between;
   align-items: center;
 }
-.Header .Wrap .Menu {
+.Header .Wrap .Home,
+.Header .Wrap .About,
+.Header .Wrap .Blog,
+.Header .Wrap .Portfolio,
+.Header .Wrap .Contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,8 +38,13 @@
   cursor: pointer;
 }
 
-.Header .Wrap .Menu p {
-  color: #f1f1f1;
+.Header .Wrap .Home:hover,
+.Header .Wrap .About:hover,
+.Header .Wrap .Blog:hover,
+.Header .Wrap .Portfolio:hover,
+.Header .Wrap .Contact:hover,
+.SignIn:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
